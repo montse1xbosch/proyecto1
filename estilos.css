@@ -1,0 +1,25 @@
+
+section{
+  min-height: 100vh;
+}
+.first-section{ display: flex; justify-content: center; align-items: center}
+.third-section img{
+  width: 100%;
+}
+@media (min-width: 768px){
+  .third-section{
+    min-height: 70vh;
+  }
+  .second-section{display: flex; justify-content:space-around; }
+  .second-section p {
+    width: 33%;
+    padding: 10px}
+  
+
+.third-section {
+display: flex;
+justify-content:space-around}
+
+.second-image {align-self: flex-end;}
+
+}
